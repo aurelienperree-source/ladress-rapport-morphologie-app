@@ -1,0 +1,18 @@
+{
+  "name": "ladress-rapport-morphologie-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend Vercel (proxy IA vision) pour le service Rapport de Morphologie LADRESS. Ne stocke jamais de photo.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "compare": "node scripts/compare.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "^37.0.0"
+  }
+}
