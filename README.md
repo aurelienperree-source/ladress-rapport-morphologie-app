@@ -39,7 +39,7 @@ Le coût par appel n'est pas calculé automatiquement ici (les tarifs des 3 four
 
 ## Le prompt
 
-`lib/prompt.js` contient le prompt "déconstruction du biais vestimentaire" envoyé aux 3 IA. **Important : c'est un brouillon de reconstitution**, le texte exact validé avec Aurélien lors du test Claude Haiku 4.5 n'a pas été retrouvé dans le wiki — à faire confirmer/remplacer par lui avant de tirer des conclusions de la comparaison.
+`lib/prompt.js` contient le prompt "déconstruction du biais vestimentaire" envoyé aux 3 IA, rédigé par Thomas (contraintes techniques : JSON strict, raisonnement libre) et Charlotte (ton de marque L/ADRESS — bienveillant, jamais clinique, puisque ce texte pourrait un jour être lu par une cliente), validé par Aurélien le 2026-09-19. Classification seule (pas de conseils vestimentaires, déjà couverts par `REPORT_CONTENT` côté page Shopify).
 
 ## Déploiement
 
